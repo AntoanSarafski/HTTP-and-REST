@@ -1,5 +1,5 @@
 function loadRepos() {
-  fetch("https://api.github.com/users/testnakov/repos12")
+  fetch("https://api.github.com/users/testnakov/repos")
     .then((res) => res.json())
     .then((body) => {
       body.forEach((repo) => {
